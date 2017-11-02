@@ -1,0 +1,148 @@
+body {
+    background-image: url("../images/skyscraper.png");
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    background-color: pink;
+    display: block;
+}
+
+.container {
+    float: left;
+    margin-left: 90px;
+    margin-top: 15px;
+    position: relative;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 65px;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-left: 90px;
+    position: absolute;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    padding-bottom: 15px;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+    background-color: teal;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 150px;
+    WIDTH: 100%;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav {
+    float: right;
+    position: relative;
+    margin-right: 890px;
+    color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#maindiv {
+    position: relative;
+    float: left;
+}
+
+.p2 {
+    float: left;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.sect1 {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    width: 650px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+#about {
+    color: #4aaaa5;
+    padding-bottom: 15px;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.sect2 {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+    width: 270px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-left: 5px;
+}
+
+.contact {
+    color: #4aaaa5;
+    float: left;
+    margin-left: 17px;
+}
+
+.social {
+    padding-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    clear: both;
+    text-align: center;
+    background-color: grey;
+    border-top-color: teal;
+    border-top-width: 5px;
+    border-top-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media  (max-width: 980px) {
+    #maindiv {
+        width: 60%;
+        padding-left:0px;
+}
+}
+
+@media  (max-width: 768px) {
+    #maindiv {
+        width: 50%;
+}
+}
+@media (max-width: 640px) {
+    #maindiv {
+        width: 30%;
+}
+}
